@@ -17,6 +17,16 @@ public class BookAppointmentTest extends BaseLib{
 	  //Reporter.log("Framework setup is fine", true);
 	  CousultationRequestFeature crf = new CousultationRequestFeature(driver);
 	  ConsultationRequestSuccessFeature crsf = new ConsultationRequestSuccessFeature(driver);
+	  crf.validateDateField();
+	  crf.validateVisitReasonField();
+	  crf.validateFirstNameField();
+	  crf.validateLastNameField();
+	  crf.validateAddressLine1Field();
+	  crf.validateCityField();
+	  crf.validateZipCodeField();
+	  crf.validateBirthdateField();
+	  crf.validateCellPhoneField();
+	  crf.validateEmailField();
 	  crf.enterData();
 	  crsf.verifyConsultationSuccessMessage();
   }

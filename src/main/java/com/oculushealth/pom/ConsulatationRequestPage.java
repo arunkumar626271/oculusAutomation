@@ -72,6 +72,12 @@ public class ConsulatationRequestPage {
 	@FindBy(xpath="//span[@class='MuiIconButton-label']/input")
 	private WebElement selfPayCheckbox;
 	
+	@FindBy(xpath="//p[text()='Field is required']")
+	private WebElement fieldIsRequiredErrMsg;
+	
+	@FindBy(xpath="//p[contains(text(),'Invalid Date')]")
+	private WebElement invalidDateErrMsg;
+	
 	public ConsulatationRequestPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}
@@ -156,5 +162,11 @@ public class ConsulatationRequestPage {
 	}
 	public WebElement getSelfPayCheckbox() {
 		return selfPayCheckbox;
+	}
+	public WebElement getInvalidDateErrMsg() {
+		return invalidDateErrMsg;
+	}
+	public WebElement getFieldIsRequiredErrMsg() {
+		return fieldIsRequiredErrMsg;
 	}
 }
