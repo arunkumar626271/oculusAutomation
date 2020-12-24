@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Test Framework Execution started Thu Dec 24 01:51:40 IST 2020]]>
+    </line>
+    <line>
+      <![CDATA[Login Page is not yet defined]]>
+    </line>
+    <line>
+      <![CDATA[bookAppointment script started Thu Dec 24 01:51:46 IST 2020]]>
+    </line>
+    <line>
+      <![CDATA[bookAppointment executed successfully Thu Dec 24 01:52:02 IST 2020]]>
+    </line>
+    <line>
+      <![CDATA[Logout Feature is not yet introduced]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="21349" started-at="2020-12-24T01:51:40 IST" finished-at="2020-12-24T01:52:02 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="21349" started-at="2020-12-24T01:51:40 IST" finished-at="2020-12-24T01:52:02 IST">
+      <class name="com.oculushealth.test.BookAppointmentTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.oculushealth.test.BookAppointmentTest@4e9ba398]" name="setup" is-config="true" duration-ms="6064" started-at="2020-12-24T01:51:40 IST" finished-at="2020-12-24T01:51:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.oculushealth.test.BookAppointmentTest@4e9ba398]" name="preCondition" is-config="true" duration-ms="2" started-at="2020-12-24T01:51:46 IST" finished-at="2020-12-24T01:51:46 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Page is not yet defined]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="bookAppointment()[pri:0, instance:com.oculushealth.test.BookAppointmentTest@4e9ba398]" name="bookAppointment" duration-ms="15211" started-at="2020-12-24T01:51:46 IST" finished-at="2020-12-24T01:52:02 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[bookAppointment script started Thu Dec 24 01:51:46 IST 2020]]>
+            </line>
+            <line>
+              <![CDATA[bookAppointment executed successfully Thu Dec 24 01:52:02 IST 2020]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bookAppointment -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.oculushealth.test.BookAppointmentTest@4e9ba398]" name="postCondition" is-config="true" duration-ms="1" started-at="2020-12-24T01:52:02 IST" finished-at="2020-12-24T01:52:02 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout Feature is not yet introduced]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.oculushealth.test.BookAppointmentTest@4e9ba398]" name="teardown" is-config="true" duration-ms="1" started-at="2020-12-24T01:52:02 IST" finished-at="2020-12-24T01:52:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.oculushealth.test.BookAppointmentTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
