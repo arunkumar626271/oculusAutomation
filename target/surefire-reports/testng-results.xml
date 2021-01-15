@@ -1,60 +1,616 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="1" ignored="5" total="24" passed="18">
   <reporter-output>
     <line>
-      <![CDATA[Test Framework Execution started Thu Dec 24 20:45:58 IST 2020]]>
+      <![CDATA[Test Framework Execution started Thu Jan 14 18:58:11 IST 2021]]>
     </line>
     <line>
       <![CDATA[Login Page is not yet defined]]>
     </line>
     <line>
-      <![CDATA[bookAppointment script started Thu Dec 24 20:46:04 IST 2020]]>
+      <![CDATA[bookInPersonAppointmentForChild script started Thu Jan 14 18:58:20 IST 2021]]>
     </line>
     <line>
-      <![CDATA[bookAppointment executed successfully Thu Dec 24 20:48:32 IST 2020]]>
+      <![CDATA[bookInPersonAppointmentForChild executed successfully Thu Jan 14 18:58:55 IST 2021]]>
+    </line>
+    <line>
+      <![CDATA[bookInPersonAppointmentForSpouse script started Thu Jan 14 18:59:03 IST 2021]]>
+    </line>
+    <line>
+      <![CDATA[bookInPersonAppointmentForSpouse  has failed Thu Jan 14 19:00:06 IST 2021]]>
+    </line>
+    <line>
+      <![CDATA[bookInPersonAppointmentForOther script started Thu Jan 14 19:00:13 IST 2021]]>
+    </line>
+    <line>
+      <![CDATA[bookInPersonAppointmentForOther executed successfully Thu Jan 14 19:00:42 IST 2021]]>
+    </line>
+    <line>
+      <![CDATA[Logout Feature is not yet introduced]]>
+    </line>
+    <line>
+      <![CDATA[Login Page is not yet defined]]>
+    </line>
+    <line>
+      <![CDATA[bookVideoCallAppointmentForSelf script started Thu Jan 14 19:00:48 IST 2021]]>
+    </line>
+    <line>
+      <![CDATA[bookVideoCallAppointmentForSelf executed successfully Thu Jan 14 19:01:07 IST 2021]]>
+    </line>
+    <line>
+      <![CDATA[bookInPersonAppointmentForSelf script started Thu Jan 14 19:01:14 IST 2021]]>
+    </line>
+    <line>
+      <![CDATA[bookInPersonAppointmentForSelf executed successfully Thu Jan 14 19:01:43 IST 2021]]>
+    </line>
+    <line>
+      <![CDATA[bookInPersonAppointmentForChild script started Thu Jan 14 19:01:50 IST 2021]]>
+    </line>
+    <line>
+      <![CDATA[bookInPersonAppointmentForChild executed successfully Thu Jan 14 19:02:14 IST 2021]]>
+    </line>
+    <line>
+      <![CDATA[bookVideoCallAppointmentForChild script started Thu Jan 14 19:02:49 IST 2021]]>
+    </line>
+    <line>
+      <![CDATA[bookVideoCallAppointmentForChild executed successfully Thu Jan 14 19:03:10 IST 2021]]>
+    </line>
+    <line>
+      <![CDATA[bookVideoCallAppointmentForSpouse script started Thu Jan 14 19:03:17 IST 2021]]>
+    </line>
+    <line>
+      <![CDATA[bookVideoCallAppointmentForSpouse executed successfully Thu Jan 14 19:03:41 IST 2021]]>
+    </line>
+    <line>
+      <![CDATA[bookInPersonAppointmentForSpouse script started Thu Jan 14 19:03:48 IST 2021]]>
+    </line>
+    <line>
+      <![CDATA[bookInPersonAppointmentForSpouse executed successfully Thu Jan 14 19:04:12 IST 2021]]>
+    </line>
+    <line>
+      <![CDATA[bookVideoCallAppointmentForOther script started Thu Jan 14 19:04:19 IST 2021]]>
+    </line>
+    <line>
+      <![CDATA[bookVideoCallAppointmentForOther executed successfully Thu Jan 14 19:04:43 IST 2021]]>
+    </line>
+    <line>
+      <![CDATA[bookInPersonAppointmentForOther script started Thu Jan 14 19:04:51 IST 2021]]>
+    </line>
+    <line>
+      <![CDATA[bookInPersonAppointmentForOther executed successfully Thu Jan 14 19:05:14 IST 2021]]>
+    </line>
+    <line>
+      <![CDATA[Logout Feature is not yet introduced]]>
+    </line>
+    <line>
+      <![CDATA[Login Page is not yet defined]]>
+    </line>
+    <line>
+      <![CDATA[bookVideoCallAppointmentForSelf script started Thu Jan 14 19:05:21 IST 2021]]>
+    </line>
+    <line>
+      <![CDATA[bookVideoCallAppointmentForSelf executed successfully Thu Jan 14 19:05:42 IST 2021]]>
+    </line>
+    <line>
+      <![CDATA[bookInPersonAppointmentForSelf script started Thu Jan 14 19:05:50 IST 2021]]>
+    </line>
+    <line>
+      <![CDATA[bookInPersonAppointmentForSelf executed successfully Thu Jan 14 19:06:13 IST 2021]]>
+    </line>
+    <line>
+      <![CDATA[bookInPersonAppointmentForChild script started Thu Jan 14 19:06:18 IST 2021]]>
+    </line>
+    <line>
+      <![CDATA[bookInPersonAppointmentForChild executed successfully Thu Jan 14 19:06:41 IST 2021]]>
+    </line>
+    <line>
+      <![CDATA[bookVideoCallAppointmentForChild script started Thu Jan 14 19:06:47 IST 2021]]>
+    </line>
+    <line>
+      <![CDATA[bookVideoCallAppointmentForChild executed successfully Thu Jan 14 19:07:11 IST 2021]]>
+    </line>
+    <line>
+      <![CDATA[bookVideoCallAppointmentForSpouse script started Thu Jan 14 19:07:19 IST 2021]]>
+    </line>
+    <line>
+      <![CDATA[bookVideoCallAppointmentForSpouse executed successfully Thu Jan 14 19:07:46 IST 2021]]>
+    </line>
+    <line>
+      <![CDATA[bookInPersonAppointmentForSpouse script started Thu Jan 14 19:07:54 IST 2021]]>
+    </line>
+    <line>
+      <![CDATA[bookInPersonAppointmentForSpouse executed successfully Thu Jan 14 19:08:18 IST 2021]]>
+    </line>
+    <line>
+      <![CDATA[bookVideoCallAppointmentForOther script started Thu Jan 14 19:08:25 IST 2021]]>
+    </line>
+    <line>
+      <![CDATA[bookVideoCallAppointmentForOther executed successfully Thu Jan 14 19:08:46 IST 2021]]>
+    </line>
+    <line>
+      <![CDATA[bookInPersonAppointmentForOther script started Thu Jan 14 19:08:52 IST 2021]]>
+    </line>
+    <line>
+      <![CDATA[bookInPersonAppointmentForOther executed successfully Thu Jan 14 19:09:18 IST 2021]]>
     </line>
     <line>
       <![CDATA[Logout Feature is not yet introduced]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="154030" started-at="2020-12-24T20:45:58 IST" finished-at="2020-12-24T20:48:32 IST">
+  <suite name="Suite" duration-ms="666421" started-at="2021-01-14T18:58:11 IST" finished-at="2021-01-14T19:09:18 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="154030" started-at="2020-12-24T20:45:58 IST" finished-at="2020-12-24T20:48:32 IST">
-      <class name="com.oculushealth.test.BookAppointmentTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.oculushealth.test.BookAppointmentTest@4e9ba398]" name="setup" is-config="true" duration-ms="6304" started-at="2020-12-24T20:45:58 IST" finished-at="2020-12-24T20:46:04 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.oculushealth.test.BookAppointmentTest@4e9ba398]" name="preCondition" is-config="true" duration-ms="1" started-at="2020-12-24T20:46:04 IST" finished-at="2020-12-24T20:46:04 IST">
+    <test name="Test" duration-ms="666421" started-at="2021-01-14T18:58:11 IST" finished-at="2021-01-14T19:09:18 IST">
+      <class name="com.oculushealth.test.BookAppointmentOculusHealthCashTest">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.oculushealth.test.BookAppointmentOculusHealthCashTest@6536e911]" name="preCondition" is-config="true" duration-ms="1" started-at="2021-01-14T19:05:14 IST" finished-at="2021-01-14T19:05:14 IST">
           <reporter-output>
             <line>
               <![CDATA[Login Page is not yet defined]]>
             </line>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="bookAppointment()[pri:0, instance:com.oculushealth.test.BookAppointmentTest@4e9ba398]" name="bookAppointment" duration-ms="147679" started-at="2020-12-24T20:46:04 IST" finished-at="2020-12-24T20:48:32 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.oculushealth.test.BookAppointmentOculusHealthCashTest@6536e911]" name="setup" is-config="true" duration-ms="6695" started-at="2021-01-14T19:05:14 IST" finished-at="2021-01-14T19:05:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="bookVideoCallAppointmentForSelf()[pri:1, instance:com.oculushealth.test.BookAppointmentOculusHealthCashTest@6536e911]" name="bookVideoCallAppointmentForSelf" duration-ms="21542" started-at="2021-01-14T19:05:21 IST" finished-at="2021-01-14T19:05:42 IST">
           <reporter-output>
             <line>
-              <![CDATA[bookAppointment script started Thu Dec 24 20:46:04 IST 2020]]>
+              <![CDATA[bookVideoCallAppointmentForSelf script started Thu Jan 14 19:05:21 IST 2021]]>
             </line>
             <line>
-              <![CDATA[bookAppointment executed successfully Thu Dec 24 20:48:32 IST 2020]]>
+              <![CDATA[bookVideoCallAppointmentForSelf executed successfully Thu Jan 14 19:05:42 IST 2021]]>
             </line>
           </reporter-output>
-        </test-method> <!-- bookAppointment -->
-        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.oculushealth.test.BookAppointmentTest@4e9ba398]" name="postCondition" is-config="true" duration-ms="0" started-at="2020-12-24T20:48:32 IST" finished-at="2020-12-24T20:48:32 IST">
+        </test-method> <!-- bookVideoCallAppointmentForSelf -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.oculushealth.test.BookAppointmentOculusHealthCashTest@6536e911]" name="teardown" is-config="true" duration-ms="44" started-at="2021-01-14T19:05:42 IST" finished-at="2021-01-14T19:05:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.oculushealth.test.BookAppointmentOculusHealthCashTest@6536e911]" name="setup" is-config="true" duration-ms="7968" started-at="2021-01-14T19:05:42 IST" finished-at="2021-01-14T19:05:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="bookInPersonAppointmentForSelf()[pri:2, instance:com.oculushealth.test.BookAppointmentOculusHealthCashTest@6536e911]" name="bookInPersonAppointmentForSelf" duration-ms="22215" started-at="2021-01-14T19:05:50 IST" finished-at="2021-01-14T19:06:13 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[bookInPersonAppointmentForSelf script started Thu Jan 14 19:05:50 IST 2021]]>
+            </line>
+            <line>
+              <![CDATA[bookInPersonAppointmentForSelf executed successfully Thu Jan 14 19:06:13 IST 2021]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bookInPersonAppointmentForSelf -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.oculushealth.test.BookAppointmentOculusHealthCashTest@6536e911]" name="teardown" is-config="true" duration-ms="57" started-at="2021-01-14T19:06:13 IST" finished-at="2021-01-14T19:06:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.oculushealth.test.BookAppointmentOculusHealthCashTest@6536e911]" name="setup" is-config="true" duration-ms="5822" started-at="2021-01-14T19:06:13 IST" finished-at="2021-01-14T19:06:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="bookInPersonAppointmentForChild()[pri:3, instance:com.oculushealth.test.BookAppointmentOculusHealthCashTest@6536e911]" name="bookInPersonAppointmentForChild" duration-ms="22184" started-at="2021-01-14T19:06:18 IST" finished-at="2021-01-14T19:06:41 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[bookInPersonAppointmentForChild script started Thu Jan 14 19:06:18 IST 2021]]>
+            </line>
+            <line>
+              <![CDATA[bookInPersonAppointmentForChild executed successfully Thu Jan 14 19:06:41 IST 2021]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bookInPersonAppointmentForChild -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.oculushealth.test.BookAppointmentOculusHealthCashTest@6536e911]" name="teardown" is-config="true" duration-ms="42" started-at="2021-01-14T19:06:41 IST" finished-at="2021-01-14T19:06:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.oculushealth.test.BookAppointmentOculusHealthCashTest@6536e911]" name="setup" is-config="true" duration-ms="6049" started-at="2021-01-14T19:06:41 IST" finished-at="2021-01-14T19:06:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="bookVideoCallAppointmentForChild()[pri:4, instance:com.oculushealth.test.BookAppointmentOculusHealthCashTest@6536e911]" name="bookVideoCallAppointmentForChild" duration-ms="24044" started-at="2021-01-14T19:06:47 IST" finished-at="2021-01-14T19:07:11 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[bookVideoCallAppointmentForChild script started Thu Jan 14 19:06:47 IST 2021]]>
+            </line>
+            <line>
+              <![CDATA[bookVideoCallAppointmentForChild executed successfully Thu Jan 14 19:07:11 IST 2021]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bookVideoCallAppointmentForChild -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.oculushealth.test.BookAppointmentOculusHealthCashTest@6536e911]" name="teardown" is-config="true" duration-ms="27" started-at="2021-01-14T19:07:11 IST" finished-at="2021-01-14T19:07:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.oculushealth.test.BookAppointmentOculusHealthCashTest@6536e911]" name="setup" is-config="true" duration-ms="8558" started-at="2021-01-14T19:07:11 IST" finished-at="2021-01-14T19:07:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="bookVideoCallAppointmentForSpouse()[pri:5, instance:com.oculushealth.test.BookAppointmentOculusHealthCashTest@6536e911]" name="bookVideoCallAppointmentForSpouse" duration-ms="26947" started-at="2021-01-14T19:07:19 IST" finished-at="2021-01-14T19:07:46 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[bookVideoCallAppointmentForSpouse script started Thu Jan 14 19:07:19 IST 2021]]>
+            </line>
+            <line>
+              <![CDATA[bookVideoCallAppointmentForSpouse executed successfully Thu Jan 14 19:07:46 IST 2021]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bookVideoCallAppointmentForSpouse -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.oculushealth.test.BookAppointmentOculusHealthCashTest@6536e911]" name="teardown" is-config="true" duration-ms="36" started-at="2021-01-14T19:07:46 IST" finished-at="2021-01-14T19:07:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.oculushealth.test.BookAppointmentOculusHealthCashTest@6536e911]" name="setup" is-config="true" duration-ms="7793" started-at="2021-01-14T19:07:46 IST" finished-at="2021-01-14T19:07:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="bookInPersonAppointmentForSpouse()[pri:6, instance:com.oculushealth.test.BookAppointmentOculusHealthCashTest@6536e911]" name="bookInPersonAppointmentForSpouse" duration-ms="24199" started-at="2021-01-14T19:07:54 IST" finished-at="2021-01-14T19:08:18 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[bookInPersonAppointmentForSpouse script started Thu Jan 14 19:07:54 IST 2021]]>
+            </line>
+            <line>
+              <![CDATA[bookInPersonAppointmentForSpouse executed successfully Thu Jan 14 19:08:18 IST 2021]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bookInPersonAppointmentForSpouse -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.oculushealth.test.BookAppointmentOculusHealthCashTest@6536e911]" name="teardown" is-config="true" duration-ms="43" started-at="2021-01-14T19:08:18 IST" finished-at="2021-01-14T19:08:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.oculushealth.test.BookAppointmentOculusHealthCashTest@6536e911]" name="setup" is-config="true" duration-ms="6609" started-at="2021-01-14T19:08:18 IST" finished-at="2021-01-14T19:08:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="bookVideoCallAppointmentForOther()[pri:7, instance:com.oculushealth.test.BookAppointmentOculusHealthCashTest@6536e911]" name="bookVideoCallAppointmentForOther" duration-ms="21353" started-at="2021-01-14T19:08:25 IST" finished-at="2021-01-14T19:08:46 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[bookVideoCallAppointmentForOther script started Thu Jan 14 19:08:25 IST 2021]]>
+            </line>
+            <line>
+              <![CDATA[bookVideoCallAppointmentForOther executed successfully Thu Jan 14 19:08:46 IST 2021]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bookVideoCallAppointmentForOther -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.oculushealth.test.BookAppointmentOculusHealthCashTest@6536e911]" name="teardown" is-config="true" duration-ms="35" started-at="2021-01-14T19:08:46 IST" finished-at="2021-01-14T19:08:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.oculushealth.test.BookAppointmentOculusHealthCashTest@6536e911]" name="setup" is-config="true" duration-ms="6092" started-at="2021-01-14T19:08:46 IST" finished-at="2021-01-14T19:08:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="bookInPersonAppointmentForOther()[pri:8, instance:com.oculushealth.test.BookAppointmentOculusHealthCashTest@6536e911]" name="bookInPersonAppointmentForOther" duration-ms="25186" started-at="2021-01-14T19:08:52 IST" finished-at="2021-01-14T19:09:18 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[bookInPersonAppointmentForOther script started Thu Jan 14 19:08:52 IST 2021]]>
+            </line>
+            <line>
+              <![CDATA[bookInPersonAppointmentForOther executed successfully Thu Jan 14 19:09:18 IST 2021]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bookInPersonAppointmentForOther -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.oculushealth.test.BookAppointmentOculusHealthCashTest@6536e911]" name="teardown" is-config="true" duration-ms="30" started-at="2021-01-14T19:09:18 IST" finished-at="2021-01-14T19:09:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.oculushealth.test.BookAppointmentOculusHealthCashTest@6536e911]" name="postCondition" is-config="true" duration-ms="16" started-at="2021-01-14T19:09:18 IST" finished-at="2021-01-14T19:09:18 IST">
           <reporter-output>
             <line>
               <![CDATA[Logout Feature is not yet introduced]]>
             </line>
           </reporter-output>
         </test-method> <!-- postCondition -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.oculushealth.test.BookAppointmentTest@4e9ba398]" name="teardown" is-config="true" duration-ms="0" started-at="2020-12-24T20:48:32 IST" finished-at="2020-12-24T20:48:32 IST">
+      </class> <!-- com.oculushealth.test.BookAppointmentOculusHealthCashTest -->
+      <class name="com.oculushealth.test.BookAppointmentOculusHealthCheckTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.oculushealth.test.BookAppointmentOculusHealthCheckTest@6b09bb57]" name="setup" is-config="true" duration-ms="5792" started-at="2021-01-14T19:00:42 IST" finished-at="2021-01-14T19:00:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.oculushealth.test.BookAppointmentOculusHealthCheckTest@6b09bb57]" name="preCondition" is-config="true" duration-ms="0" started-at="2021-01-14T19:00:42 IST" finished-at="2021-01-14T19:00:42 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Page is not yet defined]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="bookVideoCallAppointmentForSelf()[pri:1, instance:com.oculushealth.test.BookAppointmentOculusHealthCheckTest@6b09bb57]" name="bookVideoCallAppointmentForSelf" duration-ms="19746" started-at="2021-01-14T19:00:48 IST" finished-at="2021-01-14T19:01:07 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[bookVideoCallAppointmentForSelf script started Thu Jan 14 19:00:48 IST 2021]]>
+            </line>
+            <line>
+              <![CDATA[bookVideoCallAppointmentForSelf executed successfully Thu Jan 14 19:01:07 IST 2021]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bookVideoCallAppointmentForSelf -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.oculushealth.test.BookAppointmentOculusHealthCheckTest@6b09bb57]" name="teardown" is-config="true" duration-ms="35" started-at="2021-01-14T19:01:07 IST" finished-at="2021-01-14T19:01:07 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.oculushealth.test.BookAppointmentTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.oculushealth.test.BookAppointmentOculusHealthCheckTest@6b09bb57]" name="setup" is-config="true" duration-ms="6905" started-at="2021-01-14T19:01:07 IST" finished-at="2021-01-14T19:01:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="bookInPersonAppointmentForSelf()[pri:2, instance:com.oculushealth.test.BookAppointmentOculusHealthCheckTest@6b09bb57]" name="bookInPersonAppointmentForSelf" duration-ms="29010" started-at="2021-01-14T19:01:14 IST" finished-at="2021-01-14T19:01:43 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[bookInPersonAppointmentForSelf script started Thu Jan 14 19:01:14 IST 2021]]>
+            </line>
+            <line>
+              <![CDATA[bookInPersonAppointmentForSelf executed successfully Thu Jan 14 19:01:43 IST 2021]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bookInPersonAppointmentForSelf -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.oculushealth.test.BookAppointmentOculusHealthCheckTest@6b09bb57]" name="teardown" is-config="true" duration-ms="30" started-at="2021-01-14T19:01:43 IST" finished-at="2021-01-14T19:01:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.oculushealth.test.BookAppointmentOculusHealthCheckTest@6b09bb57]" name="setup" is-config="true" duration-ms="7055" started-at="2021-01-14T19:01:43 IST" finished-at="2021-01-14T19:01:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="bookInPersonAppointmentForChild()[pri:3, instance:com.oculushealth.test.BookAppointmentOculusHealthCheckTest@6b09bb57]" name="bookInPersonAppointmentForChild" duration-ms="23359" started-at="2021-01-14T19:01:50 IST" finished-at="2021-01-14T19:02:14 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[bookInPersonAppointmentForChild script started Thu Jan 14 19:01:50 IST 2021]]>
+            </line>
+            <line>
+              <![CDATA[bookInPersonAppointmentForChild executed successfully Thu Jan 14 19:02:14 IST 2021]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bookInPersonAppointmentForChild -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.oculushealth.test.BookAppointmentOculusHealthCheckTest@6b09bb57]" name="teardown" is-config="true" duration-ms="70" started-at="2021-01-14T19:02:14 IST" finished-at="2021-01-14T19:02:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.oculushealth.test.BookAppointmentOculusHealthCheckTest@6b09bb57]" name="setup" is-config="true" duration-ms="35050" started-at="2021-01-14T19:02:14 IST" finished-at="2021-01-14T19:02:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="bookVideoCallAppointmentForChild()[pri:4, instance:com.oculushealth.test.BookAppointmentOculusHealthCheckTest@6b09bb57]" name="bookVideoCallAppointmentForChild" duration-ms="21002" started-at="2021-01-14T19:02:49 IST" finished-at="2021-01-14T19:03:10 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[bookVideoCallAppointmentForChild script started Thu Jan 14 19:02:49 IST 2021]]>
+            </line>
+            <line>
+              <![CDATA[bookVideoCallAppointmentForChild executed successfully Thu Jan 14 19:03:10 IST 2021]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bookVideoCallAppointmentForChild -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.oculushealth.test.BookAppointmentOculusHealthCheckTest@6b09bb57]" name="teardown" is-config="true" duration-ms="36" started-at="2021-01-14T19:03:10 IST" finished-at="2021-01-14T19:03:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.oculushealth.test.BookAppointmentOculusHealthCheckTest@6b09bb57]" name="setup" is-config="true" duration-ms="7433" started-at="2021-01-14T19:03:10 IST" finished-at="2021-01-14T19:03:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="bookVideoCallAppointmentForSpouse()[pri:5, instance:com.oculushealth.test.BookAppointmentOculusHealthCheckTest@6b09bb57]" name="bookVideoCallAppointmentForSpouse" duration-ms="23607" started-at="2021-01-14T19:03:17 IST" finished-at="2021-01-14T19:03:41 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[bookVideoCallAppointmentForSpouse script started Thu Jan 14 19:03:17 IST 2021]]>
+            </line>
+            <line>
+              <![CDATA[bookVideoCallAppointmentForSpouse executed successfully Thu Jan 14 19:03:41 IST 2021]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bookVideoCallAppointmentForSpouse -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.oculushealth.test.BookAppointmentOculusHealthCheckTest@6b09bb57]" name="teardown" is-config="true" duration-ms="75" started-at="2021-01-14T19:03:41 IST" finished-at="2021-01-14T19:03:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.oculushealth.test.BookAppointmentOculusHealthCheckTest@6b09bb57]" name="setup" is-config="true" duration-ms="6685" started-at="2021-01-14T19:03:41 IST" finished-at="2021-01-14T19:03:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="bookInPersonAppointmentForSpouse()[pri:6, instance:com.oculushealth.test.BookAppointmentOculusHealthCheckTest@6b09bb57]" name="bookInPersonAppointmentForSpouse" duration-ms="24430" started-at="2021-01-14T19:03:48 IST" finished-at="2021-01-14T19:04:12 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[bookInPersonAppointmentForSpouse script started Thu Jan 14 19:03:48 IST 2021]]>
+            </line>
+            <line>
+              <![CDATA[bookInPersonAppointmentForSpouse executed successfully Thu Jan 14 19:04:12 IST 2021]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bookInPersonAppointmentForSpouse -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.oculushealth.test.BookAppointmentOculusHealthCheckTest@6b09bb57]" name="teardown" is-config="true" duration-ms="27" started-at="2021-01-14T19:04:12 IST" finished-at="2021-01-14T19:04:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.oculushealth.test.BookAppointmentOculusHealthCheckTest@6b09bb57]" name="setup" is-config="true" duration-ms="6747" started-at="2021-01-14T19:04:12 IST" finished-at="2021-01-14T19:04:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="bookVideoCallAppointmentForOther()[pri:7, instance:com.oculushealth.test.BookAppointmentOculusHealthCheckTest@6b09bb57]" name="bookVideoCallAppointmentForOther" duration-ms="23733" started-at="2021-01-14T19:04:19 IST" finished-at="2021-01-14T19:04:43 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[bookVideoCallAppointmentForOther script started Thu Jan 14 19:04:19 IST 2021]]>
+            </line>
+            <line>
+              <![CDATA[bookVideoCallAppointmentForOther executed successfully Thu Jan 14 19:04:43 IST 2021]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bookVideoCallAppointmentForOther -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.oculushealth.test.BookAppointmentOculusHealthCheckTest@6b09bb57]" name="teardown" is-config="true" duration-ms="52" started-at="2021-01-14T19:04:43 IST" finished-at="2021-01-14T19:04:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.oculushealth.test.BookAppointmentOculusHealthCheckTest@6b09bb57]" name="setup" is-config="true" duration-ms="7956" started-at="2021-01-14T19:04:43 IST" finished-at="2021-01-14T19:04:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="bookInPersonAppointmentForOther()[pri:8, instance:com.oculushealth.test.BookAppointmentOculusHealthCheckTest@6b09bb57]" name="bookInPersonAppointmentForOther" duration-ms="23337" started-at="2021-01-14T19:04:51 IST" finished-at="2021-01-14T19:05:14 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[bookInPersonAppointmentForOther script started Thu Jan 14 19:04:51 IST 2021]]>
+            </line>
+            <line>
+              <![CDATA[bookInPersonAppointmentForOther executed successfully Thu Jan 14 19:05:14 IST 2021]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bookInPersonAppointmentForOther -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.oculushealth.test.BookAppointmentOculusHealthCheckTest@6b09bb57]" name="teardown" is-config="true" duration-ms="34" started-at="2021-01-14T19:05:14 IST" finished-at="2021-01-14T19:05:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.oculushealth.test.BookAppointmentOculusHealthCheckTest@6b09bb57]" name="postCondition" is-config="true" duration-ms="3" started-at="2021-01-14T19:05:14 IST" finished-at="2021-01-14T19:05:14 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout Feature is not yet introduced]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.oculushealth.test.BookAppointmentOculusHealthCheckTest -->
+      <class name="com.oculushealth.test.BookAppointmentOculusCreditCardTest">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.oculushealth.test.BookAppointmentOculusCreditCardTest@63753b6d]" name="preCondition" is-config="true" duration-ms="15" started-at="2021-01-14T18:58:11 IST" finished-at="2021-01-14T18:58:11 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Page is not yet defined]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.oculushealth.test.BookAppointmentOculusCreditCardTest@63753b6d]" name="setup" is-config="true" duration-ms="8557" started-at="2021-01-14T18:58:11 IST" finished-at="2021-01-14T18:58:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="bookInPersonAppointmentForChild()[pri:4, instance:com.oculushealth.test.BookAppointmentOculusCreditCardTest@63753b6d]" name="bookInPersonAppointmentForChild" duration-ms="35411" started-at="2021-01-14T18:58:20 IST" finished-at="2021-01-14T18:58:55 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[bookInPersonAppointmentForChild script started Thu Jan 14 18:58:20 IST 2021]]>
+            </line>
+            <line>
+              <![CDATA[bookInPersonAppointmentForChild executed successfully Thu Jan 14 18:58:55 IST 2021]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bookInPersonAppointmentForChild -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.oculushealth.test.BookAppointmentOculusCreditCardTest@63753b6d]" name="teardown" is-config="true" duration-ms="50" started-at="2021-01-14T18:58:55 IST" finished-at="2021-01-14T18:58:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.oculushealth.test.BookAppointmentOculusCreditCardTest@63753b6d]" name="setup" is-config="true" duration-ms="7596" started-at="2021-01-14T18:58:55 IST" finished-at="2021-01-14T18:59:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="bookInPersonAppointmentForSpouse()[pri:6, instance:com.oculushealth.test.BookAppointmentOculusCreditCardTest@63753b6d]" name="bookInPersonAppointmentForSpouse" duration-ms="62721" started-at="2021-01-14T18:59:03 IST" finished-at="2021-01-14T19:00:06 IST">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='CardNumberField-input-wrapper']//input[@name='cardnumber']' (tried for 20 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='CardNumberField-input-wrapper']//input[@name='cardnumber']' (tried for 20 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at com.oculushealth.generics.WebDriverUtils.waitForElementToBeClickable(WebDriverUtils.java:25)
+at com.oculushealth.features.AddYourCreditCardPageFeatures.enterCreditCardInfoAndContinue(AddYourCreditCardPageFeatures.java:36)
+at com.oculushealth.test.BookAppointmentOculusCreditCardTest.bookInPersonAppointmentForSpouse(BookAppointmentOculusCreditCardTest.java:344)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='CardNumberField-input-wrapper']//input[@name='cardnumber']"}
+  (Session info: chrome=87.0.4280.141)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'YODA-PC', ip: '192.168.1.5', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\anand\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:3350}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9f6d7ef51296ac33f4c794d063657273
+*** Element info: {Using=xpath, value=//div[@class='CardNumberField-input-wrapper']//input[@name='cardnumber']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
+at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 35 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+            <line>
+              <![CDATA[bookInPersonAppointmentForSpouse script started Thu Jan 14 18:59:03 IST 2021]]>
+            </line>
+            <line>
+              <![CDATA[bookInPersonAppointmentForSpouse  has failed Thu Jan 14 19:00:06 IST 2021]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bookInPersonAppointmentForSpouse -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.oculushealth.test.BookAppointmentOculusCreditCardTest@63753b6d]" name="teardown" is-config="true" duration-ms="222" started-at="2021-01-14T19:00:06 IST" finished-at="2021-01-14T19:00:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.oculushealth.test.BookAppointmentOculusCreditCardTest@63753b6d]" name="setup" is-config="true" duration-ms="6906" started-at="2021-01-14T19:00:06 IST" finished-at="2021-01-14T19:00:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="bookInPersonAppointmentForOther()[pri:8, instance:com.oculushealth.test.BookAppointmentOculusCreditCardTest@63753b6d]" name="bookInPersonAppointmentForOther" duration-ms="28640" started-at="2021-01-14T19:00:13 IST" finished-at="2021-01-14T19:00:42 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[bookInPersonAppointmentForOther script started Thu Jan 14 19:00:13 IST 2021]]>
+            </line>
+            <line>
+              <![CDATA[bookInPersonAppointmentForOther executed successfully Thu Jan 14 19:00:42 IST 2021]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bookInPersonAppointmentForOther -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.oculushealth.test.BookAppointmentOculusCreditCardTest@63753b6d]" name="teardown" is-config="true" duration-ms="27" started-at="2021-01-14T19:00:42 IST" finished-at="2021-01-14T19:00:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.oculushealth.test.BookAppointmentOculusCreditCardTest@63753b6d]" name="postCondition" is-config="true" duration-ms="0" started-at="2021-01-14T19:00:42 IST" finished-at="2021-01-14T19:00:42 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout Feature is not yet introduced]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.oculushealth.test.BookAppointmentOculusCreditCardTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

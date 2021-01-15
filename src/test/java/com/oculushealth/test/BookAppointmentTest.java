@@ -7,9 +7,9 @@ import org.testng.annotations.Test;
 
 import com.oculushealth.features.ConsultationRequestSuccessFeature;
 import com.oculushealth.features.CousultationRequestFeature;
-import com.oculushealth.generics.BaseLib;
+import com.oculushealth.generics.BaseTest;
 
-public class BookAppointmentTest extends BaseLib{
+public class BookAppointmentTest extends BaseTest{
 	
   @Test
   public void bookAppointment() throws EncryptedDocumentException, IOException 

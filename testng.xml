@@ -1,12 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-<listeners>
-	<listener class-name="com.oculushealth.generics.ListenerImpl"></listener>
-</listeners>
-  <test name="Test">
-  		<classes>
-  			<class name="com.oculushealth.test.BookAppointmentTest"></class>
-  		</classes>
-  </test> <!-- Test -->
+	<listeners>
+		<listener class-name="com.oculushealth.generics.ListenerImpl"></listener>
+	</listeners>
+	<test name="Test">
+		<classes>
+			<!-- <class name="com.oculushealth.test.BookAppointmentTest"></class> -->
+			<!-- <class name="com.oculushealth.test.NewPatientWalkInTest"></class> -->
+			<class name="com.oculushealth.test.BookAppointmentOculusCreditCardTest">
+				<methods>
+					<include name="bookVideoCallAppointmentForMyself"></include>
+					<include name="bookInPersonAppointmentForMyself"></include>
+					<include name="bookInPersonAppointmentForChild"></include>
+					<include name="bookVideoCallAppointmentForChild"></include>
+					<include name="bookVideoCallAppointmentForSpouse"></include>
+					<include name="bookInPersonAppointmentForSpouse"></include>
+					<include name="bookVideoCallAppointmentForOther"></include>
+					<include name="bookInPersonAppointmentForOther"></include>
+				</methods>
+			</class>
+
+			<class name="com.oculushealth.test.BookAppointmentOculusHealthCheckTest">
+				<methods>
+					<include name="bookVideoCallAppointmentForSelf"></include>
+					<include name="bookInPersonAppointmentForSelf"></include>
+					<include name="bookInPersonAppointmentForChild"></include>
+					<include name="bookVideoCallAppointmentForChild"></include>
+					<include name="bookVideoCallAppointmentForSpouse"></include>
+					<include name="bookInPersonAppointmentForSpouse"></include>
+					<include name="bookVideoCallAppointmentForOther"></include>
+					<include name="bookInPersonAppointmentForOther"></include>
+				</methods>
+			</class>
+			<class name="com.oculushealth.test.BookAppointmentOculusHealthCashTest">
+				<methods>
+					<include name="bookVideoCallAppointmentForSelf"></include>
+					<include name="bookInPersonAppointmentForSelf"></include>
+					<include name="bookInPersonAppointmentForChild"></include>
+					<include name="bookVideoCallAppointmentForChild"></include>
+					<include name="bookVideoCallAppointmentForSpouse"></include>
+					<include name="bookInPersonAppointmentForSpouse"></include>
+					<include name="bookVideoCallAppointmentForOther"></include>
+					<include name="bookInPersonAppointmentForOther"></include>
+					
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
 </suite> <!-- Suite -->

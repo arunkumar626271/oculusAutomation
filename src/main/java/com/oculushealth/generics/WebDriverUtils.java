@@ -20,9 +20,9 @@ public class WebDriverUtils {
 	 */
 	private Actions action;
 
-	public void waitForElementStatus(WebElement element, WebDriver driver) {
+	public WebElement waitForElementToBeClickable(WebElement element, WebDriver driver) {
 		WebDriverWait wait = new WebDriverWait(driver, 20);
-		wait.until(ExpectedConditions.elementToBeClickable(element));
+		return wait.until(ExpectedConditions.elementToBeClickable(element));
 	}
 
 	/**
@@ -37,7 +37,7 @@ public class WebDriverUtils {
 		WebElement element1 = wait.until(ExpectedConditions.visibilityOf(element));
 		return element1;
 	}
-
+	
 	/**
 	 * wait for page title based on availability
 	 * 
@@ -175,5 +175,16 @@ public class WebDriverUtils {
 	public void cancelAlert(WebDriver driver) {
 		driver.switchTo().alert().dismiss();
 	}
-
+	
+	public void switchToIframe(WebDriver driver, WebElement frame)
+	{
+		/*WebDriverWait wait = new WebDriverWait(driver, 20);
+		wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(frame));*/
+		
+		driver.switchTo().frame(frame);
+	}
+	public void switchToParentFrame(WebDriver driver)
+	{
+		driver.switchTo().parentFrame();
+	}
 }

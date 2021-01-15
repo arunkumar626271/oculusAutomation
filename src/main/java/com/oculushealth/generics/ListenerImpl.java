@@ -31,7 +31,7 @@ public class ListenerImpl implements ITestListener {
 
 	public void onTestFailure(ITestResult result) {
 		failCount++;
-		BaseLib bl  = (BaseLib) result.getInstance();
+		BaseTest bl  = (BaseTest) result.getInstance();
 		WebDriver driver = bl.getDriver();
 		Reporter.log(result.getName() + "  has failed " + new Date(), true);
 		File destFile = new File(System.getProperty("user.dir")+File.separator+"screenshot"+File.separator+ result.getName() +".jpg");

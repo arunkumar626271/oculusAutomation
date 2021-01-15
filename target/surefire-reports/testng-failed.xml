@@ -6,15 +6,15 @@
   </listeners>
   <test thread-count="5" verbose="0" name="Test(failed)">
     <classes>
-      <class name="com.oculushealth.test.BookAppointmentTest">
+      <class name="com.oculushealth.test.BookAppointmentOculusCreditCardTest">
         <methods>
-          <include name="teardown"/>
-          <include name="preCondition"/>
-          <include name="setup"/>
-          <include name="bookAppointment"/>
           <include name="postCondition"/>
+          <include name="bookInPersonAppointmentForSpouse"/>
+          <include name="preCondition"/>
+          <include name="teardown"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- com.oculushealth.test.BookAppointmentTest -->
+      </class> <!-- com.oculushealth.test.BookAppointmentOculusCreditCardTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
